@@ -20,7 +20,7 @@ typedef enum {
  * @brief Enum for setting the resolution and sample rate of the MCP3421.
  */
 typedef enum {
-  RESOLUTION_12_BIT = 0b00, /**< Resolution set to 12-bit (240 SPS) */
+  //RESOLUTION_12_BIT = 0b00, /**< Resolution set to 12-bit (240 SPS) */
   RESOLUTION_14_BIT = 0b01, /**< Resolution set to 14-bit (60 SPS) */
   RESOLUTION_16_BIT = 0b10, /**< Resolution set to 16-bit (15 SPS) */
   RESOLUTION_18_BIT = 0b11  /**< Resolution set to 18-bit (3.75 SPS) */

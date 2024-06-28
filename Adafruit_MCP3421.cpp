@@ -147,7 +147,7 @@ int32_t Adafruit_MCP3421::readADC() {
 
   int32_t adcValue = 0;
   switch (config.resolution) {
-  case RESOLUTION_12_BIT:
+  //case RESOLUTION_12_BIT:
   case RESOLUTION_14_BIT:
   case RESOLUTION_16_BIT:
     // Directly cast the first two bytes to int16_t
